@@ -54,26 +54,36 @@ header{
 }
 
 .img2{
-    height: 100%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
+    margin-top: 30px;
 }
 
 
 .CLIP{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 20px;
 padding-bottom: 50px;
 margin: 20px;
+justify-content: center;
+grid-gap: 10px;
+align-items: space-between;
+
 }
 
 .CLIP__comp2{
     padding-top: 10px;
+    text-align: center;
+    margin-top: 12px;
 }
 .CLIP__H3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 30px;   
+    text-align: center;
+margin-top: 25px;
+padding-top: 10px;
+ 
 }
 
 
@@ -109,13 +119,13 @@ margin: 20px;
 
 
 .flex{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      padding: 0.5rem;
-    padding-top: 2rem;
-    justify-content: space-evenly;
-    grid-gap: 10px;
+  
+     justify-content: space-evenly;
+     grid-gap: 10px;
     
 }
 
@@ -170,31 +180,18 @@ padding: 15px;
     .img6{
 grid-template-columns: 1fr 1fr 1fr;
     }
-}
 
 
-@media only screen  and (max-width: 500px){
     .flex{
 grid-template-columns: 1fr;
     }
-}
 
 
-@media only screen  and (max-width: 500px){
     .last{
 grid-template-columns: 1fr;
     }
-}
 
 
-@media only screen  and (max-width: 500px){
-    .CLIP{
-grid-template-columns: 1fr;
-padding-top: 40px;
-padding-bottom: 50px;
-margin: 20px;
-;
-    }
 
     .img2{
         height: 80%;
@@ -206,6 +203,29 @@ margin: 20px;
         text-align: center;
         margin-top: 20px;
         padding-top: 20px;
-        
+}
+
+
+.CLIP{
+    grid-template-columns: 1fr;
+}
+
+}
+
+
+
+
+@media only screen  and (max-width: 1000px){
+    .CLIP__comp2{
+        padding-top: 10px;
+    }
+
+    .CLIP__H3{
+        margin-top: 15px;
+        padding-top: 7px;
     }
 }
+
+
+
+  
