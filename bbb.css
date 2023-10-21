@@ -12,7 +12,7 @@
     font-family: public sans;
  }
 header{
-    background: url(bg-header-desktop.png)
+    background: url(IMAGE/bg-header-desktop.png);
 }
  header img{
     display: flex;
@@ -130,9 +130,10 @@ padding-top: 10px;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
    
-     padding: 0.5rem;
+     padding: 3rem;
+    
   
-     justify-content: space-evenly;
+     justify-content: space-between;
      grid-gap: 10px;
     
 }
@@ -192,6 +193,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
     .flex{
 grid-template-columns: 1fr;
+padding: 0.5rem;
     }
 
 
@@ -211,6 +213,10 @@ grid-template-columns: 1fr;
         text-align: center;
         margin-top: 20px;
         padding-top: 20px;
+}
+
+.rr{
+padding: 15px;
 }
 
 
